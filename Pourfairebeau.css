@@ -1,0 +1,253 @@
+
+html body{
+    font-family: 'Nunito Sans',apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoj;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f5f8;
+    height: 100%;
+    width: 100%;
+   
+    
+    
+}
+.page {
+	min-height:100vh;
+	display:flex; 
+	flex-direction:column; 
+}
+
+.content {
+	flex-grow:1; 
+}
+
+footer{background-color: #ce0033 ;}
+
+#image{
+    position: absolute;
+    top: 10px;
+    left:10px;
+}
+h1{
+    font-size: 375%;
+    font-weight: 900;
+    font-style: bold;
+    text-align: center;
+}
+header{ height:100;
+margin: 0%;
+padding:1px;
+background-color:#fff;
+}
+
+nav{
+    width: 100%;
+    background-color: #ce0033;
+}
+nav ul {margin: 0px;
+padding: 0px}
+nav li{
+    list-style-type: none;
+    float: left;
+}
+nav a{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+   
+  
+}
+.table{
+    margin: 0 auto;
+    display: table;
+}
+.Loisireu:hover{
+    transition-duration : 700ms;
+   border-bottom:  1px solid #ce0033;
+   border-top: 1px solid #ce0033;
+   background-color: #fff;
+ }
+ .Loisireuu:hover{
+color:#ce0033;
+ }
+ .Parcours:hover{
+    transition-duration : 700ms;
+    border-bottom:  1px solid #ce0033;
+    border-top: 1px solid #ce0033;
+    background-color: #fff;
+  
+  }
+  .parcoureu:hover{
+    color: #ce0033;
+  }
+  .MEI:hover{
+    transition-duration : 700ms;
+    border-bottom:  1px solid #ce0033;
+    border-top: 1px solid #ce0033;
+    background-color: #fff;
+  
+  }
+  .MEIeu:hover{
+ color: #ce0033;
+  }
+  .Candidature:hover{
+    transition-duration : 700ms;
+    border-bottom:  1px solid #ce0033;
+    border-top: 1px solid #ce0033;
+    background-color: #fff;
+  
+  }
+  .Candidatureu:hover{
+ color: #ce0033;
+  }
+nav li:hover a{
+    padding: 18px 30px 20px 30px
+}
+h2{text-align: center; font-size: 250%;}
+.section h2{padding-top: 1%;}
+
+
+.footer{background-color:#ce0033;
+    width: 100%;
+  
+   padding-bottom: 0px;
+   
+    
+}
+.footer::after{ content: "";
+    display: table;
+    clear:both;}
+address a{text-decoration: none;}
+#picto{
+   position: relative; 
+ 
+
+}
+
+
+
+.presentation p{font-weight: 400;font-family: 'Nunito', sans-serif; font-size: 150%; }
+.matete{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    z-index: 10;
+   
+   
+   
+}
+.iconcitation{
+    z-index: 20;
+    
+    position:relative;
+    bottom:250px;
+   right: 10px;
+   }
+   .presentation{
+    
+    background-color:#fff;
+    width: 100%;
+    margin-top: 3%;
+    padding-bottom: 3.8%;
+    margin-bottom: 0;
+}
+.textpresent{
+    
+    width: 30%;
+   margin-left: 1%;
+   margin-top:1%;
+   
+   float: left;
+   }
+   .photopres{float: left; margin-left: 10%;}
+   .presentation::after{clear:both;display: table;content: "";}
+
+.mail{float:right; margin-left:1% ; margin-bottom:0; margin-right: 35%; background-color: #fff; padding: 10px 25px; position: relative; bottom: 0px; text-transform: uppercase;}
+.tel{float:right;   ; background-color: #fff; padding: 10px 25px;}
+address a{color: #ce0033; font-size: 100%;}
+
+
+.mail:hover{transition-duration : 750ms;
+    background-color:#a10028
+}
+.tel:hover {transition-duration : 750ms;
+    background-color: #a10028;
+}
+address :hover a{color: #fff ;}
+
+
+.left  {float:left;width:30%}
+.right{float:left;width:70%}
+.part::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.part{border-top: 5px solid  #ce0033; background-color: #fff;}
+
+
+
+.loisirleft{
+    float:left;
+    width: 50%;
+     ;
+}
+.loisirright{float:left;
+width:50%}
+.loipart::after{ content: "";
+    display: table;
+    clear:both;}
+   
+    .section{width:100%; background-color: #fff;}
+
+    .right p {font-size: 190%; margin-left: 4% ;}
+    .imgeu{width: 3%;}
+    .part h3{color: black}
+    .right h3{ text-align: left; width: 30%   ; margin-left:20% ;}
+    .pictog{float: left ; width: 30%; position: relative;left: 10%;}
+    
+    .footer h3{float: left; width: 50%; position: relative;  margin: 1%; font-weight: 900; color: #fff;font-size: 250%;}
+    
+h3{
+    font-size: 220%;
+    width: 100%;
+    font-weight: 900;
+    text-align: center;
+    color: black;
+    margin:0;
+}
+
+    address{position: relative; top:30px}
+    .presentation h2{padding-top: 2%;}
+.loi {background-color: white; margin: 0;}
+
+
+.meipart{float: left;width: 27%; border-top:solid #ce0033 6px ; margin-left:5%; background-color: #fff;}
+.meipart1{float: left;width:27%; border-top:solid #ce0033 5px ; margin-left:4%; background-color: #fff;}
+.meipart2{float:left;width:27%; border-top:solid #ce0033 5px ; margin-left:4%; background-color: #fff;}
+.secmei::after{clear: both;
+content:"";
+display: table;}
+.baudi{background-color: white;}
+.secmei{background-color: #f1f5f8; padding:2% 0 2% 0;}
+.secloi{  margin-top: 2%;}
+.secloi h3{ color: black;  margin: 0 auto;}
+.jeu{width: 12%;}
+.sw{width:30%}
+.inter{width: 10%;}
+
+
+
+.loisirleft img{border: solid 3px #ce0033; margin-left:20% ; box-shadow: 0 0 10px black;}
+.parcou{background-color: #fff; padding: 1% 0 1% 0; margin:0 0 2% 0}
+.loi{padding:1% 0 1% 0}
+.loipart{background-color: white; margin-top: 2%;}
+.loisirright p {margin-left: 0; font-size:180%; background-color:#f1f5f8 ;}
+.secmei p{font-weight: 400;font-family: 'Nunito', sans-serif;}
+.secmei h3{font-size: 150%; text-align: center ;}
+.loipart h3{ padding: 1% 0 1% 0;}
